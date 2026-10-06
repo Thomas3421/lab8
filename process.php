@@ -9,7 +9,7 @@ if ($username == "admin" && $password == "1234") {
     header("Location: welcome.php");
     exit();
 } else {
-    header("Location: login.html");
+    header("Location: login.php");
     exit();
 }
 ?>
